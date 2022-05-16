@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>My Block Explorer</title>
+    <script type="module" src="index.js"></script>
+</head>
+
+<body>
+    <div class="components">
+
+        <div class="wallet">
+            <h1> Check Balance </h1>
+            <input type="text" id="public-address" placeholder="Address" />
+            <div id="balance">
+                0
+            </div>
+        </div>
+
+        <div class="send">
+            <h1> View Blocks </h1>
+            <div class="button" id="latest-block">
+                Get Latest
+            </div>
+        </div>
+
+        <div id="block-information">
+
+        </div>
+
+        <div class="send">
+            <h1> View Block By Hash </h1>
+            <input type="text" id="block-hash" placeholder="block hash" />
+            <div class="button" id="this-block">
+                Get block
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
